@@ -12,23 +12,7 @@ public class Main {
 
         CalendarAssistantService calendarAssistantService = new CalendarAssistantService();
 
-        /*while(true){
-            Scanner scanner = new Scanner(System.in);
-            COMMAND command = COMMAND.valueOf(scanner.next());
-            switch (command){
-                case ADD_EMPLOYEE: calendarAssistantService.addEmployee(scanner.next());
-                                    break;
-                case ADD_MEETING: calendarAssistantService.addEmployeeMeeting(scanner.next());
-                                    break;
-                case SHOW_MEETINGS: calendarAssistantService.showAllMeetings(scanner.next());
-                                    break;
-                case SHOW_EMPLOYEES: calendarAssistantService.showAllEmployees();
-                                    break;
-                case EXIT: return;
-            }
-        }*/
-
-        String filePath = "/Users/ritambera/Desktop/Machine-Coding/preplaced/Machine-Coding/CalendarAssistant/src/main/java/org/example/input.txt";
+        String filePath = "/Users/ritambera/Desktop/Machine-Coding/preplaced/Machine-Coding/CalendarAssistant/src/main/resources/input.txt";
         Scanner scanner = null;
         try {
             scanner = new Scanner(new File(filePath));

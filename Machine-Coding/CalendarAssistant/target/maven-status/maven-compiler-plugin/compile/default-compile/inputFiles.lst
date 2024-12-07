@@ -1,0 +1,13 @@
+/Users/ritambera/Desktop/Machine-Coding/preplaced/Machine-Coding/CalendarAssistant/src/main/java/org/example/service/CalendarAssistantService.java
+/Users/ritambera/Desktop/Machine-Coding/preplaced/Machine-Coding/CalendarAssistant/src/main/java/org/example/entity/Employee.java
+/Users/ritambera/Desktop/Machine-Coding/preplaced/Machine-Coding/CalendarAssistant/src/main/java/org/example/Main.java
+/Users/ritambera/Desktop/Machine-Coding/preplaced/Machine-Coding/CalendarAssistant/src/main/java/org/example/entity/COMMAND.java
+/Users/ritambera/Desktop/Machine-Coding/preplaced/Machine-Coding/CalendarAssistant/src/main/java/org/example/strategy/MeetingInputValidator.java
+/Users/ritambera/Desktop/Machine-Coding/preplaced/Machine-Coding/CalendarAssistant/src/main/java/org/example/entity/Meeting.java
+/Users/ritambera/Desktop/Machine-Coding/preplaced/Machine-Coding/CalendarAssistant/src/main/java/org/example/helper/TimeMeetingComparator.java
+/Users/ritambera/Desktop/Machine-Coding/preplaced/Machine-Coding/CalendarAssistant/src/main/java/org/example/manager/EmployeeManager.java
+/Users/ritambera/Desktop/Machine-Coding/preplaced/Machine-Coding/CalendarAssistant/src/main/java/org/example/entity/EMPLOYEE_TYPE.java
+/Users/ritambera/Desktop/Machine-Coding/preplaced/Machine-Coding/CalendarAssistant/src/main/java/org/example/helper/DateTimeHelper.java
+/Users/ritambera/Desktop/Machine-Coding/preplaced/Machine-Coding/CalendarAssistant/src/main/java/org/example/strategy/InputValidator.java
+/Users/ritambera/Desktop/Machine-Coding/preplaced/Machine-Coding/CalendarAssistant/src/main/java/org/example/strategy/RemoveOverlappingMeeting.java
+/Users/ritambera/Desktop/Machine-Coding/preplaced/Machine-Coding/CalendarAssistant/src/main/java/org/example/strategy/MeetingConflictResolutionStrategy.java

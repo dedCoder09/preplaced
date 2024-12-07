@@ -7,7 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ParkingLot" />
+        <module name="CalendarAssistant" />
         <module name="Splitwise" />
+        <module name="MusicRecommendationSystem" />
       </profile>
     </annotationProcessing>
   </component>
