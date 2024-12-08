@@ -1,0 +1,22 @@
+ADD_SONG
+{name:song1,singer:AB,genre:Folk,tempo:60}
+{name:song2,singer:DEF,genre:Rock,tempo:70}
+{name:song3,singer:AB,genre:Country,tempo:55}
+{name:song4,singer:XYZ,genre:Rock,tempo:60}
+{name:song5,singer:XYZ,genre:Rock,tempo:75}
+{name:song6,singer:AB,genre:Country,tempo:60}
+{name:song7,singer:DEF,genre:Indie,tempo:55}
+END
+ADD_PERSON
+{name:A playlist:[song1,song2,song3] friends:[B,C]}
+{name:B playlist:[song6,song7,song3] friends:[A,D]}
+{name:C playlist:[song4,song3,song6] friends:[A,D]}
+{name:D playlist:[song7,song3,song1,song2] friends:[B,C]}
+END
+GET_SONG_RECOMMENDATION
+A
+B
+C
+D
+END
+EXIT
