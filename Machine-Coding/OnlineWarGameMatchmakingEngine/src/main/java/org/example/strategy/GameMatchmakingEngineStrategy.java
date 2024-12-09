@@ -37,10 +37,13 @@ public class GameMatchmakingEngineStrategy {
         System.out.println("inside isMatch with request -> " + request);
         boolean isMatchingGameModes = false;
         List<String> requestGameModesString = request.getGameModes().stream().map(GAME_MODE::name).collect(Collectors.toList());
-        List<String> gameModesString = game.getProbableGameModes().stream().map(GAME_LOCATION::name).collect(Collectors.toList());
-        for(GAME_MODE gameMode : game.getProbableGameModes()){
-
+        List<String> gameModesString = game.getProbableGameModes().stream().map(GAME_MODE::name).collect(Collectors.toList());
+        for(String gameMode : gameModesString){
+            if(requestGameModesString.contains(gameMode)){
+                isMatchingGameModes = true;
+            }
         }
+        if(!isMatchingGameModes) return false;
         int playersRequiredForGameToStart = game.getGameMode().getPlayerCount() - game.getCurrentPlayerIds().size();
         System.out.println("playersRequiredForGameToStart -> " + playersRequiredForGameToStart);
         System.out.println("request.getPlayerIds().size() -> " + request.getPlayerIds().size());
